@@ -1,4 +1,6 @@
 {
   "id": "continuouslogger",
-  "command": ["npm", "run", "start"]
+  "command": ["npm", "run", "start"],
+  "cpu": 2,
+  "memory": 2048
 }
