@@ -9,9 +9,9 @@ function continuousLogger() {
     count++;
     setTimeout(() => {
       continuousLogger()
-    }, 5000);
+    }, 5);
   } else {
-    console.log(finished);
+    console.log('finished');
   }
 }
 
