@@ -6,6 +6,7 @@ let linesLimit = 20000;
 function continuousLogger() {
   if (count < linesLimit) {
     console.log('logging line # ' + count);
+    count++;
     setTimeout(() => {
       continuousLogger()
     }, 5000);
